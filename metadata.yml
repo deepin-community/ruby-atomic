@@ -1,0 +1,76 @@
+--- !ruby/object:Gem::Specification
+name: atomic
+version: !ruby/object:Gem::Version
+  version: 1.1.16
+platform: ruby
+authors:
+- Charles Oliver Nutter
+- MenTaLguY
+- Sokolov Yura
+autorequire: 
+bindir: bin
+cert_chain: []
+date: 2014-03-17 00:00:00.000000000 Z
+dependencies: []
+description: An atomic reference implementation for JRuby, Rubinius, and MRI
+email:
+- headius@headius.com
+- mental@rydia.net
+- funny.falcon@gmail.com
+executables: []
+extensions:
+- ext/extconf.rb
+extra_rdoc_files: []
+files:
+- ".gitignore"
+- ".travis.yml"
+- Gemfile
+- LICENSE
+- README.md
+- Rakefile
+- atomic.gemspec
+- examples/atomic_example.rb
+- examples/bench_atomic.rb
+- examples/bench_atomic_1.rb
+- examples/graph_atomic_bench.rb
+- ext/AtomicReferenceService.java
+- ext/atomic_reference.c
+- ext/extconf.rb
+- ext/org/jruby/ext/atomic/AtomicReferenceLibrary.java
+- lib/atomic.rb
+- lib/atomic/concurrent_update_error.rb
+- lib/atomic/delegated_update.rb
+- lib/atomic/direct_update.rb
+- lib/atomic/fallback.rb
+- lib/atomic/jruby.rb
+- lib/atomic/numeric_cas_wrapper.rb
+- lib/atomic/rbx.rb
+- lib/atomic/ruby.rb
+- test/test_atomic.rb
+homepage: http://github.com/headius/ruby-atomic
+licenses:
+- Apache-2.0
+metadata: {}
+post_install_message: 
+rdoc_options: []
+require_paths:
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - ">="
+    - !ruby/object:Gem::Version
+      version: '0'
+required_rubygems_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - ">="
+    - !ruby/object:Gem::Version
+      version: '0'
+requirements: []
+rubyforge_project: 
+rubygems_version: 2.2.0
+signing_key: 
+specification_version: 4
+summary: An atomic reference implementation for JRuby, Rubinius, and MRI
+test_files:
+- test/test_atomic.rb
+has_rdoc: 

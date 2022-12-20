@@ -1,0 +1,26 @@
+Source: ruby-atomic
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12),
+               gem2deb (>= 1.0~),
+               ruby-minitest
+Standards-Version: 4.5.0
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-atomic.git
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-atomic
+Homepage: https://github.com/headius/ruby-atomic
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+
+Package: ruby-atomic
+Architecture: any
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: atomic reference implementation for JRuby, Rubinius, and MRI
+ An atomic reference implementation for JRuby, Rubinius, and MRI.
+ .
+ This library provides an Atomic class that guarantees atomic updates to
+ its contained value.

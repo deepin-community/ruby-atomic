@@ -1,0 +1,78 @@
+ruby-atomic (1.1.16-3-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Thu, 24 Nov 2022 07:20:47 +0800
+
+ruby-atomic (1.1.16-3) unstable; urgency=medium
+
+  [ Ondřej Surý ]
+  * Remove myself from Uploaders
+
+  [ Cédric Boutillier ]
+  * Bump debhelper compatibility level to 9
+  * Remove version in the gem2deb build-dependency
+  * Use https:// in Vcs-* fields
+  * Bump Standards-Version to 3.9.7 (no changes needed)
+  * Run wrap-and-sort on packaging files
+
+  [ Utkarsh Gupta ]
+  * Add salsa-ci.yml
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Use secure URI in debian/watch.
+  * Use secure URI in Homepage field.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Pirate Praveen ]
+  * Bump minimum version of gem2deb to 1.0~
+  * Bump Standards-Version to 4.5.0 (no changes needed)
+  * Add myself to Uploaders
+  * Add Testsuite: autopkgtest-pkg-ruby
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 12 Jul 2020 17:38:08 +0530
+
+ruby-atomic (1.1.16-2) unstable; urgency=low
+
+  * Bump gem2deb build dep >= 0.7.5~
+    - Fixes file confict (#743664)
+  * Already latest upstream (Closes: #725812)
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 08 Apr 2014 15:25:48 +0530
+
+ruby-atomic (1.1.16-1) unstable; urgency=low
+
+  * Team upload.
+  * New upstream release.
+  * Bump gem2deb build dep to 0.7.4~
+    - remove ruby1.9.1
+  * Bump standards version to 3.9.5
+  * Add ruby-minitest to build-deps
+
+ -- Pirate Praveen <praveen@debian.org>  Fri, 04 Apr 2014 18:54:20 +0530
+
+ruby-atomic (1.1.14-1) unstable; urgency=low
+
+  * Team upload.
+  * New upstream release.
+  * Install README.md into documentation directory.
+  * Update copyright to contain reference to apache 2.0 license file
+    instead of its full text.
+  * Bump Standards-Version to 3.9.4 (no changes required).
+  * Build against gem2deb >= 0.5.0~ to add ruby2.0 and drop ruby1.8
+    support (Closes: #725812).
+
+ -- Hleb Valoshka <375gnu@gmail.com>  Fri, 11 Oct 2013 23:03:15 +0300
+
+ruby-atomic (1.1.9-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ondřej Surý <ondrej@debian.org>  Mon, 27 May 2013 15:03:32 +0200
